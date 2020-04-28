@@ -50,15 +50,10 @@
       "locked": false,
       "name": "Player",
       "width": 0,
-      "x": -345,
-      "y": -173,
-      "zOrder": 2,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 5
-        }
-      ],
+      "x": 587,
+      "y": 300,
+      "zOrder": 3,
+      "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
@@ -130,6 +125,8 @@
       "variables": [],
       "behaviors": [
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 1000,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -137,9 +134,7 @@
           "deceleration": 1000,
           "ignoreDefaultControls": true,
           "maxSpeed": 125,
-          "name": "TopDownMovement",
-          "rotateObject": false,
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+          "rotateObject": false
         }
       ],
       "animations": [
@@ -153,7 +148,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim90d (1).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim90d (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -170,7 +165,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim90d (2).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim90d (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -187,7 +182,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim90d (3).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim90d (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -204,7 +199,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim90d (4).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim90d (4).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -221,7 +216,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim90d (5).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim90d (5).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -238,7 +233,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim90d (6).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim90d (6).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -267,7 +262,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim135d (1).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim135d (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -284,7 +279,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim135d (2).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim135d (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -301,7 +296,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim135d (3).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim135d (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -318,7 +313,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim135d (4).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim135d (4).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -335,7 +330,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim135d (5).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim135d (5).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -352,7 +347,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim135d (6).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim135d (6).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -381,7 +376,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim180d (1).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim180d (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -398,7 +393,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim180d (2).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim180d (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -415,7 +410,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim180d (3).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim180d (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -432,7 +427,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim180d (4).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim180d (4).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -449,7 +444,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim180d (5).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim180d (5).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -466,7 +461,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim180d (6).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim180d (6).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -495,7 +490,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim225d (1).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim225d (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -512,7 +507,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim225d (2).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim225d (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -529,7 +524,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim225d (3).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim225d (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -546,7 +541,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim225d (4).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim225d (4).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -563,7 +558,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim225d (5).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim225d (5).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -580,7 +575,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim225d (6).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim225d (6).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -609,7 +604,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim270d (1).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim270d (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -626,7 +621,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim270d (2).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim270d (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -643,7 +638,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim270d (3).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim270d (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -660,7 +655,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim270d (4).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim270d (4).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -677,7 +672,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim270d (5).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim270d (5).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -694,7 +689,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim270d (6).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim270d (6).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -723,7 +718,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim315d (1).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim315d (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -740,7 +735,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim315d (2).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim315d (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -757,7 +752,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim315d (3).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim315d (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -774,7 +769,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim315d (4).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim315d (4).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -791,7 +786,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim315d (5).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim315d (5).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -808,7 +803,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim315d (6).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim315d (6).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -836,8 +831,8 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\Idle1Anim0d (1).png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\animation\\person1\\Idle1Anim0d (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -847,33 +842,14 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 847.5,
-                    "y": 530
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 938,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 543
-                      },
-                      {
-                        "x": 938,
-                        "y": 543
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\Idle1Anim0d (2).png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\animation\\person1\\Idle1Anim0d (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -883,33 +859,14 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 847.5,
-                    "y": 530
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 938,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 543
-                      },
-                      {
-                        "x": 938,
-                        "y": 543
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\Idle1Anim0d (3).png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\animation\\person1\\Idle1Anim0d (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -919,33 +876,14 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 847.5,
-                    "y": 530
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 938,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 543
-                      },
-                      {
-                        "x": 938,
-                        "y": 543
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\Idle1Anim0d (4).png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\animation\\person1\\Idle1Anim0d (4).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -955,33 +893,14 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 847.5,
-                    "y": 530
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 938,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 543
-                      },
-                      {
-                        "x": 938,
-                        "y": 543
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\Idle1Anim0d (5).png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\animation\\person1\\Idle1Anim0d (5).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -991,33 +910,14 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 847.5,
-                    "y": 530
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 938,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 543
-                      },
-                      {
-                        "x": 938,
-                        "y": 543
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\Idle1Anim0d (6).png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\animation\\person1\\Idle1Anim0d (6).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1027,29 +927,10 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 847.5,
-                    "y": 530
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 938,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 543
-                      },
-                      {
-                        "x": 938,
-                        "y": 543
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -1065,7 +946,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim45d (1).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim45d (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1082,7 +963,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim45d (2).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim45d (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1099,7 +980,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim45d (3).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim45d (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1116,7 +997,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim45d (4).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim45d (4).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1133,7 +1014,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim45d (5).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim45d (5).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1150,7 +1031,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\Idle1Anim45d (6).png",
+                  "image": "assets\\animation\\person1\\Idle1Anim45d (6).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1179,7 +1060,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim90d (1).png",
+                  "image": "assets\\animation\\person1\\WalkAnim90d (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1196,7 +1077,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim90d (2).png",
+                  "image": "assets\\animation\\person1\\WalkAnim90d (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1213,7 +1094,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim90d (3).png",
+                  "image": "assets\\animation\\person1\\WalkAnim90d (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1230,7 +1111,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim90d (4).png",
+                  "image": "assets\\animation\\person1\\WalkAnim90d (4).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1247,7 +1128,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim90d (5).png",
+                  "image": "assets\\animation\\person1\\WalkAnim90d (5).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1264,7 +1145,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim90d (6).png",
+                  "image": "assets\\animation\\person1\\WalkAnim90d (6).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1281,7 +1162,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim90d (7).png",
+                  "image": "assets\\animation\\person1\\WalkAnim90d (7).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1298,7 +1179,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim90d (8).png",
+                  "image": "assets\\animation\\person1\\WalkAnim90d (8).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1315,7 +1196,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim90d (9).png",
+                  "image": "assets\\animation\\person1\\WalkAnim90d (9).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1332,7 +1213,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim90d (10).png",
+                  "image": "assets\\animation\\person1\\WalkAnim90d (10).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1349,7 +1230,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim90d (11).png",
+                  "image": "assets\\animation\\person1\\WalkAnim90d (11).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1366,7 +1247,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim90d (12).png",
+                  "image": "assets\\animation\\person1\\WalkAnim90d (12).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1395,7 +1276,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim135d (1).png",
+                  "image": "assets\\animation\\person1\\WalkAnim135d (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1412,7 +1293,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim135d (2).png",
+                  "image": "assets\\animation\\person1\\WalkAnim135d (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1429,7 +1310,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim135d (3).png",
+                  "image": "assets\\animation\\person1\\WalkAnim135d (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1446,7 +1327,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim135d (4).png",
+                  "image": "assets\\animation\\person1\\WalkAnim135d (4).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1463,7 +1344,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim135d (5).png",
+                  "image": "assets\\animation\\person1\\WalkAnim135d (5).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1480,7 +1361,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim135d (6).png",
+                  "image": "assets\\animation\\person1\\WalkAnim135d (6).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1497,7 +1378,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim135d (7).png",
+                  "image": "assets\\animation\\person1\\WalkAnim135d (7).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1514,7 +1395,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim135d (8).png",
+                  "image": "assets\\animation\\person1\\WalkAnim135d (8).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1531,7 +1412,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim135d (9).png",
+                  "image": "assets\\animation\\person1\\WalkAnim135d (9).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1548,7 +1429,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim135d (10).png",
+                  "image": "assets\\animation\\person1\\WalkAnim135d (10).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1565,7 +1446,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim135d (11).png",
+                  "image": "assets\\animation\\person1\\WalkAnim135d (11).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1582,7 +1463,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim135d (12).png",
+                  "image": "assets\\animation\\person1\\WalkAnim135d (12).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1611,7 +1492,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim180d (1).png",
+                  "image": "assets\\animation\\person1\\WalkAnim180d (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1628,7 +1509,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim180d (2).png",
+                  "image": "assets\\animation\\person1\\WalkAnim180d (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1645,7 +1526,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim180d (3).png",
+                  "image": "assets\\animation\\person1\\WalkAnim180d (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1662,7 +1543,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim180d (4).png",
+                  "image": "assets\\animation\\person1\\WalkAnim180d (4).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1679,7 +1560,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim180d (5).png",
+                  "image": "assets\\animation\\person1\\WalkAnim180d (5).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1696,7 +1577,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim180d (6).png",
+                  "image": "assets\\animation\\person1\\WalkAnim180d (6).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1713,7 +1594,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim180d (7).png",
+                  "image": "assets\\animation\\person1\\WalkAnim180d (7).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1730,7 +1611,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim180d (8).png",
+                  "image": "assets\\animation\\person1\\WalkAnim180d (8).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1747,7 +1628,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim180d (9).png",
+                  "image": "assets\\animation\\person1\\WalkAnim180d (9).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1764,7 +1645,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim180d (10).png",
+                  "image": "assets\\animation\\person1\\WalkAnim180d (10).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1781,7 +1662,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim180d (11).png",
+                  "image": "assets\\animation\\person1\\WalkAnim180d (11).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1798,7 +1679,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim180d (12).png",
+                  "image": "assets\\animation\\person1\\WalkAnim180d (12).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1827,7 +1708,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim225d (1).png",
+                  "image": "assets\\animation\\person1\\WalkAnim225d (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1844,7 +1725,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim225d (2).png",
+                  "image": "assets\\animation\\person1\\WalkAnim225d (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1861,7 +1742,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim225d (3).png",
+                  "image": "assets\\animation\\person1\\WalkAnim225d (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1878,7 +1759,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim225d (4).png",
+                  "image": "assets\\animation\\person1\\WalkAnim225d (4).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1895,7 +1776,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim225d (5).png",
+                  "image": "assets\\animation\\person1\\WalkAnim225d (5).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1912,7 +1793,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim225d (6).png",
+                  "image": "assets\\animation\\person1\\WalkAnim225d (6).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1929,7 +1810,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim225d (7).png",
+                  "image": "assets\\animation\\person1\\WalkAnim225d (7).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1946,7 +1827,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim225d (8).png",
+                  "image": "assets\\animation\\person1\\WalkAnim225d (8).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1963,7 +1844,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim225d (9).png",
+                  "image": "assets\\animation\\person1\\WalkAnim225d (9).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1980,7 +1861,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim225d (10).png",
+                  "image": "assets\\animation\\person1\\WalkAnim225d (10).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1997,7 +1878,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim225d (11).png",
+                  "image": "assets\\animation\\person1\\WalkAnim225d (11).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2014,7 +1895,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim225d (12).png",
+                  "image": "assets\\animation\\person1\\WalkAnim225d (12).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2043,7 +1924,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim270d (1).png",
+                  "image": "assets\\animation\\person1\\WalkAnim270d (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2060,7 +1941,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim270d (2).png",
+                  "image": "assets\\animation\\person1\\WalkAnim270d (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2077,7 +1958,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim270d (3).png",
+                  "image": "assets\\animation\\person1\\WalkAnim270d (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2094,7 +1975,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim270d (4).png",
+                  "image": "assets\\animation\\person1\\WalkAnim270d (4).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2111,7 +1992,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim270d (5).png",
+                  "image": "assets\\animation\\person1\\WalkAnim270d (5).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2128,7 +2009,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim270d (6).png",
+                  "image": "assets\\animation\\person1\\WalkAnim270d (6).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2145,7 +2026,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim270d (7).png",
+                  "image": "assets\\animation\\person1\\WalkAnim270d (7).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2162,7 +2043,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim270d (8).png",
+                  "image": "assets\\animation\\person1\\WalkAnim270d (8).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2179,7 +2060,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim270d (9).png",
+                  "image": "assets\\animation\\person1\\WalkAnim270d (9).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2196,7 +2077,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim270d (10).png",
+                  "image": "assets\\animation\\person1\\WalkAnim270d (10).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2213,7 +2094,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim270d (11).png",
+                  "image": "assets\\animation\\person1\\WalkAnim270d (11).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2230,7 +2111,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim270d (12).png",
+                  "image": "assets\\animation\\person1\\WalkAnim270d (12).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2259,7 +2140,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim315d (1).png",
+                  "image": "assets\\animation\\person1\\WalkAnim315d (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2276,7 +2157,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim315d (2).png",
+                  "image": "assets\\animation\\person1\\WalkAnim315d (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2293,7 +2174,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim315d (3).png",
+                  "image": "assets\\animation\\person1\\WalkAnim315d (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2310,7 +2191,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim315d (4).png",
+                  "image": "assets\\animation\\person1\\WalkAnim315d (4).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2327,7 +2208,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim315d (5).png",
+                  "image": "assets\\animation\\person1\\WalkAnim315d (5).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2344,7 +2225,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim315d (6).png",
+                  "image": "assets\\animation\\person1\\WalkAnim315d (6).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2361,7 +2242,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim315d (7).png",
+                  "image": "assets\\animation\\person1\\WalkAnim315d (7).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2378,7 +2259,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim315d (8).png",
+                  "image": "assets\\animation\\person1\\WalkAnim315d (8).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2395,7 +2276,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim315d (9).png",
+                  "image": "assets\\animation\\person1\\WalkAnim315d (9).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2412,7 +2293,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim315d (10).png",
+                  "image": "assets\\animation\\person1\\WalkAnim315d (10).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2429,7 +2310,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim315d (11).png",
+                  "image": "assets\\animation\\person1\\WalkAnim315d (11).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2446,7 +2327,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim315d (12).png",
+                  "image": "assets\\animation\\person1\\WalkAnim315d (12).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2474,8 +2355,8 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\WalkAnim0d (1).png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\animation\\person1\\WalkAnim0d (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2485,33 +2366,14 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 847.5,
-                    "y": 530
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 938,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 543
-                      },
-                      {
-                        "x": 938,
-                        "y": 543
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\WalkAnim0d (2).png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\animation\\person1\\WalkAnim0d (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2521,33 +2383,14 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 847.5,
-                    "y": 530
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 938,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 543
-                      },
-                      {
-                        "x": 938,
-                        "y": 543
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\WalkAnim0d (3).png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\animation\\person1\\WalkAnim0d (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2557,33 +2400,14 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 847.5,
-                    "y": 530
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 938,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 543
-                      },
-                      {
-                        "x": 938,
-                        "y": 543
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\WalkAnim0d (4).png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\animation\\person1\\WalkAnim0d (4).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2593,33 +2417,14 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 847.5,
-                    "y": 530
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 938,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 543
-                      },
-                      {
-                        "x": 938,
-                        "y": 543
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\WalkAnim0d (5).png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\animation\\person1\\WalkAnim0d (5).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2629,33 +2434,14 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 847.5,
-                    "y": 530
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 938,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 543
-                      },
-                      {
-                        "x": 938,
-                        "y": 543
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\WalkAnim0d (6).png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\animation\\person1\\WalkAnim0d (6).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2665,33 +2451,14 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 847.5,
-                    "y": 530
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 938,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 543
-                      },
-                      {
-                        "x": 938,
-                        "y": 543
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\WalkAnim0d (7).png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\animation\\person1\\WalkAnim0d (7).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2701,33 +2468,14 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 847.5,
-                    "y": 530
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 938,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 543
-                      },
-                      {
-                        "x": 938,
-                        "y": 543
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\WalkAnim0d (8).png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\animation\\person1\\WalkAnim0d (8).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2737,33 +2485,14 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 847.5,
-                    "y": 530
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 938,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 543
-                      },
-                      {
-                        "x": 938,
-                        "y": 543
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\WalkAnim0d (9).png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\animation\\person1\\WalkAnim0d (9).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2773,33 +2502,14 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 847.5,
-                    "y": 530
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 938,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 543
-                      },
-                      {
-                        "x": 938,
-                        "y": 543
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\WalkAnim0d (10).png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\animation\\person1\\WalkAnim0d (10).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2809,33 +2519,14 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 847.5,
-                    "y": 530
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 938,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 543
-                      },
-                      {
-                        "x": 938,
-                        "y": 543
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\WalkAnim0d (11).png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\animation\\person1\\WalkAnim0d (11).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2845,33 +2536,14 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 847.5,
-                    "y": 530
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 938,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 543
-                      },
-                      {
-                        "x": 938,
-                        "y": 543
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\WalkAnim0d (12).png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\animation\\person1\\WalkAnim0d (12).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2881,29 +2553,10 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 847.5,
-                    "y": 530
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 938,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 448
-                      },
-                      {
-                        "x": 983,
-                        "y": 543
-                      },
-                      {
-                        "x": 938,
-                        "y": 543
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -2919,7 +2572,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim45d (1).png",
+                  "image": "assets\\animation\\person1\\WalkAnim45d (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2936,7 +2589,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim45d (2).png",
+                  "image": "assets\\animation\\person1\\WalkAnim45d (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2953,7 +2606,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim45d (3).png",
+                  "image": "assets\\animation\\person1\\WalkAnim45d (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2970,7 +2623,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim45d (4).png",
+                  "image": "assets\\animation\\person1\\WalkAnim45d (4).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2987,7 +2640,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim45d (5).png",
+                  "image": "assets\\animation\\person1\\WalkAnim45d (5).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3004,7 +2657,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim45d (6).png",
+                  "image": "assets\\animation\\person1\\WalkAnim45d (6).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3021,7 +2674,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim45d (7).png",
+                  "image": "assets\\animation\\person1\\WalkAnim45d (7).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3038,7 +2691,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim45d (8).png",
+                  "image": "assets\\animation\\person1\\WalkAnim45d (8).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3055,7 +2708,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim45d (9).png",
+                  "image": "assets\\animation\\person1\\WalkAnim45d (9).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3072,7 +2725,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim45d (10).png",
+                  "image": "assets\\animation\\person1\\WalkAnim45d (10).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3089,7 +2742,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim45d (11).png",
+                  "image": "assets\\animation\\person1\\WalkAnim45d (11).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3106,7 +2759,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\WalkAnim45d (12).png",
+                  "image": "assets\\animation\\person1\\WalkAnim45d (12).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3131,11 +2784,11 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.05,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop90d (1).png",
+                  "image": "assets\\animation\\person1\\RunLoop90d (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3152,7 +2805,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop90d (2).png",
+                  "image": "assets\\animation\\person1\\RunLoop90d (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3169,7 +2822,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop90d (3).png",
+                  "image": "assets\\animation\\person1\\RunLoop90d (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3186,7 +2839,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop90d (4).png",
+                  "image": "assets\\animation\\person1\\RunLoop90d (4).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3203,7 +2856,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop90d (5).png",
+                  "image": "assets\\animation\\person1\\RunLoop90d (5).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3220,7 +2873,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop90d (6).png",
+                  "image": "assets\\animation\\person1\\RunLoop90d (6).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3237,7 +2890,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop90d (7).png",
+                  "image": "assets\\animation\\person1\\RunLoop90d (7).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3254,7 +2907,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop90d (8).png",
+                  "image": "assets\\animation\\person1\\RunLoop90d (8).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3271,7 +2924,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop90d (9).png",
+                  "image": "assets\\animation\\person1\\RunLoop90d (9).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3288,7 +2941,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop90d (10).png",
+                  "image": "assets\\animation\\person1\\RunLoop90d (10).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3305,7 +2958,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop90d (11).png",
+                  "image": "assets\\animation\\person1\\RunLoop90d (11).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3322,7 +2975,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop90d (12).png",
+                  "image": "assets\\animation\\person1\\RunLoop90d (12).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3347,11 +3000,11 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.05,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop135d (1).png",
+                  "image": "assets\\animation\\person1\\RunLoop135d (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3368,7 +3021,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop135d (2).png",
+                  "image": "assets\\animation\\person1\\RunLoop135d (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3385,7 +3038,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop135d (3).png",
+                  "image": "assets\\animation\\person1\\RunLoop135d (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3402,7 +3055,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop135d (4).png",
+                  "image": "assets\\animation\\person1\\RunLoop135d (4).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3419,7 +3072,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop135d (5).png",
+                  "image": "assets\\animation\\person1\\RunLoop135d (5).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3436,7 +3089,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop135d (6).png",
+                  "image": "assets\\animation\\person1\\RunLoop135d (6).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3453,7 +3106,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop135d (7).png",
+                  "image": "assets\\animation\\person1\\RunLoop135d (7).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3470,7 +3123,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop135d (8).png",
+                  "image": "assets\\animation\\person1\\RunLoop135d (8).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3487,7 +3140,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop135d (9).png",
+                  "image": "assets\\animation\\person1\\RunLoop135d (9).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3504,7 +3157,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop135d (10).png",
+                  "image": "assets\\animation\\person1\\RunLoop135d (10).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3521,7 +3174,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop135d (11).png",
+                  "image": "assets\\animation\\person1\\RunLoop135d (11).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3538,7 +3191,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop135d (12).png",
+                  "image": "assets\\animation\\person1\\RunLoop135d (12).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3563,11 +3216,11 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.05,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop180d (1).png",
+                  "image": "assets\\animation\\person1\\RunLoop180d (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3584,7 +3237,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop180d (2).png",
+                  "image": "assets\\animation\\person1\\RunLoop180d (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3601,7 +3254,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop180d (3).png",
+                  "image": "assets\\animation\\person1\\RunLoop180d (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3618,7 +3271,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop180d (4).png",
+                  "image": "assets\\animation\\person1\\RunLoop180d (4).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3635,7 +3288,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop180d (5).png",
+                  "image": "assets\\animation\\person1\\RunLoop180d (5).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3652,7 +3305,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop180d (6).png",
+                  "image": "assets\\animation\\person1\\RunLoop180d (6).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3669,7 +3322,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop180d (7).png",
+                  "image": "assets\\animation\\person1\\RunLoop180d (7).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3686,7 +3339,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop180d (8).png",
+                  "image": "assets\\animation\\person1\\RunLoop180d (8).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3703,7 +3356,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop180d (9).png",
+                  "image": "assets\\animation\\person1\\RunLoop180d (9).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3720,7 +3373,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop180d (10).png",
+                  "image": "assets\\animation\\person1\\RunLoop180d (10).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3737,7 +3390,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop180d (11).png",
+                  "image": "assets\\animation\\person1\\RunLoop180d (11).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3754,7 +3407,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop180d (12).png",
+                  "image": "assets\\animation\\person1\\RunLoop180d (12).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3779,11 +3432,11 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.05,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop225d (1).png",
+                  "image": "assets\\animation\\person1\\RunLoop225d (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3800,7 +3453,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop225d (2).png",
+                  "image": "assets\\animation\\person1\\RunLoop225d (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3817,7 +3470,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop225d (3).png",
+                  "image": "assets\\animation\\person1\\RunLoop225d (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3834,7 +3487,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop225d (4).png",
+                  "image": "assets\\animation\\person1\\RunLoop225d (4).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3851,7 +3504,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop225d (5).png",
+                  "image": "assets\\animation\\person1\\RunLoop225d (5).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3868,7 +3521,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop225d (6).png",
+                  "image": "assets\\animation\\person1\\RunLoop225d (6).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3885,7 +3538,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop225d (7).png",
+                  "image": "assets\\animation\\person1\\RunLoop225d (7).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3902,7 +3555,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop225d (8).png",
+                  "image": "assets\\animation\\person1\\RunLoop225d (8).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3919,7 +3572,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop225d (9).png",
+                  "image": "assets\\animation\\person1\\RunLoop225d (9).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3936,7 +3589,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop225d (10).png",
+                  "image": "assets\\animation\\person1\\RunLoop225d (10).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3953,7 +3606,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop225d (11).png",
+                  "image": "assets\\animation\\person1\\RunLoop225d (11).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3970,7 +3623,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop225d (12).png",
+                  "image": "assets\\animation\\person1\\RunLoop225d (12).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3995,11 +3648,11 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.05,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop270d (1).png",
+                  "image": "assets\\animation\\person1\\RunLoop270d (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4016,7 +3669,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop270d (2).png",
+                  "image": "assets\\animation\\person1\\RunLoop270d (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4033,7 +3686,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop270d (3).png",
+                  "image": "assets\\animation\\person1\\RunLoop270d (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4050,7 +3703,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop270d (4).png",
+                  "image": "assets\\animation\\person1\\RunLoop270d (4).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4067,7 +3720,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop270d (5).png",
+                  "image": "assets\\animation\\person1\\RunLoop270d (5).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4084,7 +3737,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop270d (6).png",
+                  "image": "assets\\animation\\person1\\RunLoop270d (6).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4101,7 +3754,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop270d (7).png",
+                  "image": "assets\\animation\\person1\\RunLoop270d (7).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4118,7 +3771,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop270d (8).png",
+                  "image": "assets\\animation\\person1\\RunLoop270d (8).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4135,7 +3788,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop270d (9).png",
+                  "image": "assets\\animation\\person1\\RunLoop270d (9).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4152,7 +3805,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop270d (10).png",
+                  "image": "assets\\animation\\person1\\RunLoop270d (10).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4169,7 +3822,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop270d (11).png",
+                  "image": "assets\\animation\\person1\\RunLoop270d (11).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4186,7 +3839,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop270d (12).png",
+                  "image": "assets\\animation\\person1\\RunLoop270d (12).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4211,11 +3864,11 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.05,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop315d (1).png",
+                  "image": "assets\\animation\\person1\\RunLoop315d (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4232,7 +3885,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop315d (2).png",
+                  "image": "assets\\animation\\person1\\RunLoop315d (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4249,7 +3902,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop315d (3).png",
+                  "image": "assets\\animation\\person1\\RunLoop315d (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4266,7 +3919,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop315d (4).png",
+                  "image": "assets\\animation\\person1\\RunLoop315d (4).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4283,7 +3936,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop315d (5).png",
+                  "image": "assets\\animation\\person1\\RunLoop315d (5).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4300,7 +3953,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop315d (6).png",
+                  "image": "assets\\animation\\person1\\RunLoop315d (6).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4317,7 +3970,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop315d (7).png",
+                  "image": "assets\\animation\\person1\\RunLoop315d (7).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4334,7 +3987,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop315d (8).png",
+                  "image": "assets\\animation\\person1\\RunLoop315d (8).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4351,7 +4004,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop315d (9).png",
+                  "image": "assets\\animation\\person1\\RunLoop315d (9).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4368,7 +4021,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop315d (10).png",
+                  "image": "assets\\animation\\person1\\RunLoop315d (10).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4385,7 +4038,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop315d (11).png",
+                  "image": "assets\\animation\\person1\\RunLoop315d (11).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4402,7 +4055,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop315d (12).png",
+                  "image": "assets\\animation\\person1\\RunLoop315d (12).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4427,11 +4080,11 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.05,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop0d (1).png",
+                  "image": "assets\\animation\\person1\\RunLoop0d (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4448,7 +4101,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop0d (2).png",
+                  "image": "assets\\animation\\person1\\RunLoop0d (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4465,7 +4118,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop0d (3).png",
+                  "image": "assets\\animation\\person1\\RunLoop0d (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4482,7 +4135,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop0d (4).png",
+                  "image": "assets\\animation\\person1\\RunLoop0d (4).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4499,7 +4152,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop0d (5).png",
+                  "image": "assets\\animation\\person1\\RunLoop0d (5).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4516,7 +4169,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop0d (6).png",
+                  "image": "assets\\animation\\person1\\RunLoop0d (6).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4533,7 +4186,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop0d (7).png",
+                  "image": "assets\\animation\\person1\\RunLoop0d (7).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4550,7 +4203,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop0d (8).png",
+                  "image": "assets\\animation\\person1\\RunLoop0d (8).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4567,7 +4220,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop0d (9).png",
+                  "image": "assets\\animation\\person1\\RunLoop0d (9).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4584,7 +4237,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop0d (10).png",
+                  "image": "assets\\animation\\person1\\RunLoop0d (10).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4601,7 +4254,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop0d (11).png",
+                  "image": "assets\\animation\\person1\\RunLoop0d (11).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4618,7 +4271,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop0d (12).png",
+                  "image": "assets\\animation\\person1\\RunLoop0d (12).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4643,11 +4296,11 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.05,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop45d (1).png",
+                  "image": "assets\\animation\\person1\\RunLoop45d (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4664,7 +4317,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop45d (2).png",
+                  "image": "assets\\animation\\person1\\RunLoop45d (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4681,7 +4334,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop45d (3).png",
+                  "image": "assets\\animation\\person1\\RunLoop45d (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4698,7 +4351,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop45d (4).png",
+                  "image": "assets\\animation\\person1\\RunLoop45d (4).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4715,7 +4368,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop45d (5).png",
+                  "image": "assets\\animation\\person1\\RunLoop45d (5).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4732,7 +4385,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop45d (6).png",
+                  "image": "assets\\animation\\person1\\RunLoop45d (6).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4749,7 +4402,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop45d (7).png",
+                  "image": "assets\\animation\\person1\\RunLoop45d (7).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4766,7 +4419,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop45d (8).png",
+                  "image": "assets\\animation\\person1\\RunLoop45d (8).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4783,7 +4436,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop45d (9).png",
+                  "image": "assets\\animation\\person1\\RunLoop45d (9).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4800,7 +4453,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop45d (10).png",
+                  "image": "assets\\animation\\person1\\RunLoop45d (10).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4817,7 +4470,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop45d (11).png",
+                  "image": "assets\\animation\\person1\\RunLoop45d (11).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4834,7 +4487,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\RunLoop45d (12).png",
+                  "image": "assets\\animation\\person1\\RunLoop45d (12).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
