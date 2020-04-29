@@ -4438,6 +4438,726 @@
         "name": "assets\\animation\\person1\\RunLoop45d (12).png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/MainHUDBot.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\MainHUDBot.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/MainHUDTop.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\MainHUDTop.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0030.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0045.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0045.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0100.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0115.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0115.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0130.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0130.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0145.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0145.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0200.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0200.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0215.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0215.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0230.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0230.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0245.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0245.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0300.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0300.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0315.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0315.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0330.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0330.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0345.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0345.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0400.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0400.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0415.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0415.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0430.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0430.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0445.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0445.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0500.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0500.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0515.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0515.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0530.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0530.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0545.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0545.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0600.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0600.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0615.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0615.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0630.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0630.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0645.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0645.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0700.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0700.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0715.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0715.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0730.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0730.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0745.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0745.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0800.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0800.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0815.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0815.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0830.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0830.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0845.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0845.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0900.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0900.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0915.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0915.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0930.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0930.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/0945.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\0945.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/1000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\1000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/1015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\1015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/1030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\1030.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/1045.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\1045.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/1100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\1100.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/1115.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\1115.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/1130.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\1130.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/AnalogClock/1145.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\AnalogClock\\1145.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/Exit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\Exit.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/ExitClicked.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\ExitClicked.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/ExitHover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\ExitHover.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/Load.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\Load.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/LoadClicked.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\LoadClicked.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/LoadHover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\LoadHover.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/Menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\Menu.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/MenuHover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\MenuHover.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/Quit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\Quit.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/QuitClicked.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\QuitClicked.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/QuitHover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\QuitHover.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/Phone.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\Phone.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/PhoneHover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\PhoneHover.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/Save.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\Save.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/SaveClicked.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\SaveClicked.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/SaveHover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\SaveHover.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/SettingHover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\SettingHover.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/Settings.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\Settings.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/SettingsClicked.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\SettingsClicked.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/StatTab0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\StatTab0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/StatTab1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\StatTab1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/StatTab2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\StatTab2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/StatTab3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\StatTab3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/StatTab4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\StatTab4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/VIE.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\VIE.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/VIEExit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\VIEExit.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/VIEExitHover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\VIEExitHover.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/VIENotif.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\VIENotif.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/VIENotifHover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\VIENotifHover.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HUD/White.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HUD\\White.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
